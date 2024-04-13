@@ -45,6 +45,7 @@ const LogIn = () => {
       }
     } catch (err) {
       console.log(err);
+      window.alert("Something went wrong! Check server");
     }
   };
   return (
